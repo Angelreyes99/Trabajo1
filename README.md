@@ -2,7 +2,7 @@
 Trabajo1 comunicación escrita
 ## Proyecto
 La tarea principal de este proyecto es resolver sudokus. El usuario introduce valores en un sudoku hecho en una interfaz gráfica y regresa la solución o en el caso de que no tenga solución, regresa “no tiene solución”. Cuando el usuario ingresa más de 17 valores la respuesta se vuelve única.
-Este proyecto fue asignado para demostrar y desarrollar habilidades en las estructuras de datos básicas como arreglos y listas. Así como, el uso de fuerza bruta para resolver tareas.
+Este proyecto fue desarrollado en Java y asignado para demostrar y desarrollar habilidades en las estructuras de datos básicas como arreglos y listas. Así como, el uso de fuerza bruta para resolver tareas.
 
 ## Manual del desarrollador
 El proyecto se divide en dos partes principales: solucionador e interfaz gráfica. 
