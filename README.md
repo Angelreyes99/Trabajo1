@@ -29,5 +29,5 @@ El usuario al correr el programa obtiene la interfaz gráfica. Se ingresan núme
 
 Cuando el interfaz tenga ya todos los valores deseados se pulsa el botón *respuesta* y la interfaz va a cambiar al sudoku resuelto para los valores ingresados. La respuesta es única cuando el usuario ingresa más de 17 valores. En caso contrario, hay más respuestas posibles y el proyecto va a regresar la primera que encuentre.
 
-El botón *limpiar* pone en blanco todas las casillas de la interfaz gráfica, esto sirve para cuando ya se dio una respuesta y se quieren ingresar otros valores. Además, sirve para cuando se quieren eliminar TODOS los valores ingresados.
+El botón *limpiar* pone en blanco todas las casillas de la interfaz gráfica, esto sirve para cuando ya se dio una respuesta y se quieren ingresar otros valores. Además, sirve para cuando se quieren eliminar todos los valores ingresados.
 
