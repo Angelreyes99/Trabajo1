@@ -1,9 +1,9 @@
 
 
-# Proyecto sudoku
+# Proyecto
 La tarea principal de este proyecto es resolver sudokus. El usuario introduce valores en un sudoku hecho en una interfaz gráfica y regresa la solución o en el caso de que no tenga solución, regresa “no tiene solución”. Cuando el usuario ingresa más de 17 valores la respuesta se vuelve única.
 
-Este proyecto fue desarrollado en Java y asignado para demostrar y desarrollar habilidades en las estructuras de datos básicas como arreglos, listas y el uso de fuerza bruta para resolver tareas.
+Este proyecto fue desarrollado en Java y asignado para demostrar y desarrollar habilidades en las estructuras de datos básicas como arreglos y listas. Así como, el uso de fuerza bruta para resolver tareas.
 
 ## Manual del desarrollador
 El proyecto se divide en dos partes principales: solucionador e interfaz gráfica. 
@@ -20,14 +20,16 @@ El solucionador empieza con las funciones básicas de la clase y termina con la 
 Estas funciones son parte de la función *respuesta()*, la cual está conectada a la interfaz gráfica y da solución al sudoku planteado por el usuario.
 
 ### Interfaz gráfica 
-El propósito de la interfaz gráfica es facilitar al usuario ingresar los valores a la matriz y facilitar la lectura de la respuesta al sudoku.
+Esta parte es muy básica e intuitiva. El propósito de la interfaz gráfica es facilitar al usuario ingresar los valores a la matriz y facilitar la lectura de la respuesta al sudoku.
 
 Se tiene casillas que están asignadas a cada espacio de la matriz de arreglos. Los valores ingresados en esas casillas se acomodan en la matriz. Además, se cuenta con el botón de *limpiar* para limpiar el sudoku y con el botón *respuesta* que llama a la función *respuesta()* y da una solución. 
 
 ## Manual de usuario
-El usuario al correr el programa obtiene la interfaz gráfica. Se ingresan números del 1 al 9 en las casillas dándole clic a cada casilla, sin repetir números en los renglones, en las columnas o en los cuadrantes, o se regresa “no tiene solución”. 
+El usuario al correr el programa obtiene la interfaz gráfica. El uso del proyecto es muy sencillo. Se ingresan números del 1 al 9 en las casillas dándole clic a cada casilla, sin repetir números en los renglones, en las columnas o en los cuadrantes, o se regresa “no tiene solución”. 
 
 Cuando el interfaz tenga ya todos los valores deseados se pulsa el botón *respuesta* y la interfaz va a cambiar al sudoku resuelto para los valores ingresados. La respuesta es única cuando el usuario ingresa más de 17 valores. En caso contrario, hay más respuestas posibles y el proyecto va a regresar la primera que encuentre.
 
-El botón *limpiar* pone en blanco todas las casillas de la interfaz gráfica, esto sirve para cuando ya se dio una respuesta y se quieren ingresar otros valores. Además, sirve para cuando se quieren eliminar todos los valores ingresados.
+El botón *limpiar* pone en blanco todas las casillas de la interfaz gráfica, esto sirve para cuando ya se dio una respuesta y se quieren ingresar otros valores. Además, sirve para cuando se quieren eliminar TODOS los valores ingresados.
 
+# Conclusión
+Usen este proyecto de la manera que les sea más útil, pueden tomar las partes o las funciones que les sirvan o modifíquenlo para adaptarse a sus necesidades y gustos.
